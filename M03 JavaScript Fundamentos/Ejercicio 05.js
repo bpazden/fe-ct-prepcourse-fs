@@ -8,8 +8,9 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve false.
    // Tu código:
+   var result
    if (num >0) 
-      var result = "Es positivo";
+      result = "Es positivo";
       else if (num < 0) 
             result = "Es negativo";
             else result = false;
